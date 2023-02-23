@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #333;
+  color: white;
+}
+
+.container {
+  text-align: center;
+  margin: 1.5rem;
+}
+
+label {
+  display: block;
+}
+
+input {
+  background: rgb(17, 114, 85);
+  height: 35px;
+  border-radius: 5px;
+  padding: 5px;
+  color: white;
+}
+
+input::placeholder {
+  color: white;
+}
+
+button {
+  background: rgb(32, 110, 173);
+  color: white;
+  height: 35px;
+  width: 60px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+#div1 {
+  display: none;
+}
+
+iframe {
+  min-width: 400px;
+  min-height: 300px;
+  margin-top: 2rem;
+}
