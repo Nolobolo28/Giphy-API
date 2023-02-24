@@ -48,3 +48,8 @@ iframe {
   min-height: 300px;
   margin-top: 2rem;
 }
+
+p {
+  opacity: 60%;
+  margin-top: 2rem;
+}
